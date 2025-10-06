@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://www.shutterstock.com/image-photo/pasta-amatriciana-traditional-recipe-roman-600nw-2580636985.jpg"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="src/style.css"
+    />
+    <title>menu-display</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      type="module"
+      src="/src/main.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Recipe</h1>
+        <form action="">
+          <input
+            type="text"
+            id="search"
+            placeholder="Search for Recipies"
+          />
+          <button
+            type="submit"
+            id="search-btn"
+          >
+            Search
+          </button>
+        </form>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div
+          id="recipe"
+          class="recipeContainer"
+        >
+          <h2>Search your recipes</h2>
+        </div>
+        <div class="recipe-details">
+          <button
+            type="button" class="recipe-close">
+            <i class="fas fa-times"></i>
+          </button>
+          <div class="recipe-detail-container"></div>
+        </div>
+      </section>
+    </main>
+
+    
+  </body>
+</html>
